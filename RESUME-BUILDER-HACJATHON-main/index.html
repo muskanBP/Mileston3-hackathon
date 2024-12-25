@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Static Resume Builder by M.A</h1>
+    <form id="resume-form">
+      <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>EDUCATION</legend>
+
+        <label for="education">Education:</label>
+        <textarea id="education" rows="4" required></textarea><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>EXPERIENCE AND YEARS</legend>
+
+        <label for="experience">Experience:</label>
+        <textarea id="experience" rows="4" required></textarea>
+        <label for="years">years:</label>
+        <textarea id="years" rows="4" required></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>SKILLS AND JOBS</legend>
+
+        <label for="skills">skills:</label>
+        <textarea id="skills" rows="4" required></textarea>
+        <label for="job">job:</label>
+        <textarea id="job" rows="4" required></textarea>
+        <label for="years">years:</label>
+        <textarea id="years" rows="4" required></textarea>
+
+
+      </fieldset>
+
+
+      <fieldset>
+        <legend>country</legend>
+        <label for="COUNTRY">country:</label>
+        <textarea id="country" rows="4" required></textarea>
+
+
+        <label for="city">city:</label>
+        <textarea id="city" rows="4" required></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>SELF INTRO AND HOBBIES</legend>
+
+        <label for="self intro">self intro:</label>
+        <textarea id="self intro" rows="4" required></textarea><br />
+        <label for="hobbies">hobbies:</label>
+        <textarea id="hobbies" rows="4" required></textarea><br />
+        
+      </fieldset>
+      <button>Generate Resume Below</button>
+<script src="app.js"></script>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+    </form>
+
+    <h2>Resume</h2>
+    <div id="resume-content"></div>
+  </body>
+</html>
